@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(80, 80, 164);
+    height: 50px;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(120, 120, 196);
+    height: 35px;
+
+    
+}
+.main{
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    background-color: rgb(192, 204, 192);
+    height: 80vh;
+
+}
+.leftrow{
+background-color: cyan;
+width: 20%;
+}
+.mainrow{
+flex-grow: 0.5;
+width: 80%;
+background-color: green;
+}
+.rightrow{
+background-color: purple;
+width: 20%;
+}
+.footer{
+    background-color: brown;
+    height: 20px;
+}
